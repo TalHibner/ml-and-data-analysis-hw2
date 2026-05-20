@@ -1,7 +1,25 @@
 # Machine Learning & Data Analysis - Homework 2
 
 ## Overview
-This repository contains Homework 2 for machine learning and data analysis. The assignment focuses on classification and decision tree algorithms using the mushroom dataset.
+This repository contains Homework 2 for a machine learning and data analysis course. The assignment uses the mushroom dataset to practice classification and decision tree algorithms, with an emphasis on interpreting categorical data and understanding how model choices affect performance.
+
+## Assignment Description
+The task is to build and evaluate classifiers that distinguish between edible and poisonous mushrooms. Students will implement core parts of a decision tree learner, inspect feature importance, and compare results with baseline classifiers.
+
+## Subjects Covered
+- Supervised learning and binary classification
+- Decision tree fundamentals and tree construction
+- Information gain, entropy, and Gini impurity
+- Categorical data handling and encoding strategies
+- Model evaluation, accuracy, and overfitting
+- Exploratory data analysis and visualization in a notebook format
+
+## Key Challenges
+- Working with an all-categorical dataset and converting mushroom attributes into a suitable format for learning algorithms
+- Implementing decision tree splitting logic and stopping criteria correctly
+- Comparing different split quality measures and understanding how they impact tree structure
+- Avoiding overfitting on small or noisy data subsets
+- Validating code with unit tests while tracking accuracy in the notebook
 
 ## Contents
 - `agaricus-lepiota.csv` — mushroom dataset for training and evaluation
